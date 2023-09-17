@@ -1,0 +1,40 @@
+
+.body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+.calendar {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #9D84B7;
+    text-align: center;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #E5CFF7;
+}
+
+.table td {
+    height: 50px;
+}
+
+.weekend {
+    background-color: #9D76C1;
+}
