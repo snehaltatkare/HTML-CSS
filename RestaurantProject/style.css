@@ -1,0 +1,213 @@
+
+:root {
+--gradient-Color1: #1A5D1A;
+--gradient-Color2: #A8DF8E;
+--main-color: #8EAC50;
+--shadow: 0 2rem 6rem rgba(57, 198, 179, 0.3);
+--sidebar-Color: #26577C;
+--main-color: #35A29F;
+}
+* {
+margin: 0;
+padding: 0;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+
+html {
+box-sizing: border-box;
+font-size: 62.5%; /* 1 rem =10px ; 10px/16px = 62.5%*/
+}
+
+body {
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+line-height: 1.6;
+background-image: linear-gradient(
+to right bottom,
+var(--gradient-Color1),
+var(--gradient-Color2)
+);
+
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+.container {
+max-width: 120rem;
+min-height: 65rem;
+margin: 3rem auto;
+background-color: var(--main-color);
+box-shadow: var(--shadow);
+}
+
+.header {
+height: 5rem;
+background-color: #fbe4e0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header-sections {
+flex-basis: 80%;
+}
+
+.header-sections__types {
+display: flex;
+justify-content: space-evenly;
+}
+.slogan {
+font-weight: bold;
+}
+.header-sections__lists {
+list-style: none;
+font-size: 2rem;
+align-items: center;
+}
+
+.header-sections__lists > a {
+text-decoration: none;
+}
+
+.content {
+display: flex;
+}
+
+.sidebar {
+background-color: var(--sidebar-Color);
+}
+
+.main {
+background-color: var(--main-color);
+}
+.email,
+.fb,
+.twitter,
+.insta {
+height: 2rem;
+width: 2rem;
+height: 100%;
+}
+
+.social {
+display: flex;
+justify-content: space-between;
+}
+
+.social__icon-box {
+padding: 0 1rem;
+cursor: pointer;
+
+/* height: 100%; */
+display: flex;
+}
+
+/* .social__icon-box:hover {
+background-color: #fffbf9;
+} */
+
+.bg-section {
+height: 50vh;
+background-image: linear-gradient(
+to right bottom,
+rgba(189, 195, 199, 0.5),
+rgba(44, 62, 80, 0.5)
+),
+url("https://images.pexels.com/photos/8329237/pexels-photo-8329237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+display: flex; /* Add display: flex; */
+flex-direction: column;
+align-items: center; /* Vertically center content */
+justify-content: center; /* Horizontally center content */
+}
+
+.bg-section > p {
+color: white;
+text-align: center;
+font-size: large;
+font-weight: bold;
+}
+
+.card-container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 4rem;
+}
+
+.card {
+background-color: white;
+padding: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 30%;
+text-align: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin: 0 1rem;
+}
+
+/* Additional styling for the cards */
+.card:hover {
+transform: translateY(-5px);
+transition: transform 0.2s ease;
+cursor: pointer;
+}
+
+address {
+font-size: 2rem;
+font-weight: bold;
+}
+
+@media (max-width: 768px) {
+.bg-section {
+height: 80vh; /* Adjust the height as needed for smaller screens */
+}
+
+.card-container {
+flex-direction: column; /* Stack cards vertically on smaller screens */
+margin-top: 2rem;
+}
+
+.card {
+width: 80%; /* Adjust the width of cards on smaller screens */
+margin: 1rem auto; /* Center cards horizontally on smaller screens */
+}
+}
+@media (max-width: 768px) {
+.bg-section {
+height: 80vh; /* Adjust the height as needed for smaller screens */
+}
+
+.card-container {
+flex-direction: column; /* Stack cards vertically on smaller screens */
+margin-top: 2rem;
+}
+
+.card {
+width: 80%; /* Adjust the width of cards on smaller screens */
+margin: 1rem auto; /* Center cards horizontally on smaller screens */
+}
+}
+.product-images{
+width: 100%;
+}
+.product-images figure{
+width: 50%;
+float: left;
+padding: 5px;
+}
+.product-images figure img{
+width: 100%;
+}
+.product-images figure figcaption{
+font: 1em sans-serif;
+font-size: large;
+}
