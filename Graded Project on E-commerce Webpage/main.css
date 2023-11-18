@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background: #f5f5f5; */
+    background: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    max-width: 1310px;
+    margin: 0 auto;
+}
+.w-100{
+    width: 100%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.py-0{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.colorWhite{
+    color:#fff;
+}
+.ml-20{
+    margin-left: 20px;
+}
+header{
+   width: 100%;
+    float: left;
+}
+.headerContainer{
+    float: left; width: 100%; padding: 15px 25px;
+}
+.d-flex{
+    display: flex;
+}
+.heading{
+    border-bottom:1px solid #d8d6db ;
+    text-align: center;
+}
+.heading span{
+    background: #fff;
+    padding: 5px;
+    position: relative;
+    top: 14px;
+}
+.topNavBar{
+   width: 60.9048vw;
+   margin-left: auto;
+}
+.topNavBar nav{
+    margin-left: auto;
+}
+.topNavBar nav a{
+    color:#fff;
+    margin: 0 6px;
+    font-size: 14px;
+}
+.social-media{
+    float: left;
+}
+.social-media a{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.shopingoText{
+    font-size: 24px;
+    margin-right: 30px;
+}
+.shopingoText span{
+    font-size: 12px;
+    display: block;
+    text-align: right;
+}
+.mainNav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mainNav li{
+    float: left;
+    position: relative;
+}
+.mainNav li a{
+    padding:22px 10px;
+    float: left;
+    color: #42222b;
+}
+.mainNav .subNav{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    top: 63px;
+    background: white;
+    width: 300px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.mainNav li:hover a{
+    background: #f7f7f7;
+}
+.mainNav li:hover .subNav{
+    display: block;
+}
+.mainNav li:hover .subNav a{
+    background:none;
+}
+.mainNav .subNav li{
+    float: none;
+}
+.mainNav .subNav li a{
+    padding: 7px 10px;
+    width: 100%;
+}
+.subNav li:hover a{
+    background: #f7f7f7 !important;
+}
+.form-control{
+    height: 42px;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.form-control:focus-visible{
+    outline: none;
+}
+.searchBar{
+    width: 58%;
+}
+.searchBar .input-group{
+    width: 100%;
+}
+.searchBar .input-group .form-control{
+    border-width: 2px;
+    border-right:0 ;
+}
+.btn{
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.btn.disabled{
+    pointer-events: none;
+    background: #474646;
+}
+.btn.outline{
+    background: none;
+    border: 1px solid #000;
+    color: #000;
+}
+.btn.outline:hover{
+    background: #000;
+    color:#fff
+}
+.callUsNow .fa{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.callUsNow label{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.callUsNow a{
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.rightIco{
+    margin-left: auto;
+}
+.rightIco a{
+    color: #000;
+    font-size: 33px;
+    margin-left: 38px;
+    float: left;
+    position: relative;
+}
+.rightIco a.shopping-bag span{
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%;
+    right: -13px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 0;
+}
+.wrapper{
+    float: left;
+    width: 100%;
+}
+/* Banner */
+.banner{
+    position: relative;
+}
+.banner figcaption{
+    position: absolute;
+    top: 15.5278vh;
+    left: 7.9167vw;
+}
+.banner figcaption h2{
+    font-size: 48px;
+    margin-bottom:20px ;
+}
+.banner figcaption h2 .top{
+    font-size: 28px;
+    display: block;
+}
+.banner figcaption h2 .bottom{
+    margin-top: 18px;
+    font-size: 14px;
+    display: block;
+    font-style: italic;
+}
+.banner figcaption .btn{
+    padding: 10px 20px;
+}
+.features{padding-top: 65px;}
+.features .box{
+    width: 33.3333%;
+    padding: 0 10px;
+}
+.features .box .innerBox{
+    padding: 20px;
+    border:1px solid #d8d6db;
+}
+.features .box .innerBox .ico{padding-right: 30px; align-items: center;justify-content: center;font-size: 30px;}
+.features .box .innerBox .text{font-size: 18px;}
+.features .box .innerBox .text span{font-size: 12px;display: block; color: #818285;margin-top:2px;}
+.features.category {padding-top: 30px; padding-bottom: 30px;}
+.features.category .box .innerBox{ border: 0;padding-bottom: 0;align-items: center;}
+.features.category .box .innerBox .btn{ padding:5px 10px; margin-top: 10px;}
+
+.productBox .productImage{
+    background: #e7e6e8;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.productBox .productImage img{width: 100%;}
+.productBox .productContent{padding: 10px 0;position: relative;}
+.productBox .productCategory{color:#918d91;font-size: 14px;}
+.productBox .productName{font-size: 22px; padding: 5px 0 10px;min-height: 88px;}   
+.productBox .productRating .fa{font-size:18px; color:#f8c146;margin-right: 3px;}  
+.productBox .productPricing{padding-top:6px;align-items: center;}
+.productBox .productPricing .btn{padding:10px 15px;margin-left: auto;text-transform: uppercase;}
+.productBox .productPricing del{color:#918d91;margin-right: 5px;}
+.productBox .like{position: absolute;right: 0;top:5px;font-size:20px;color:#000}
+.productBox .like .fa-heart{color:red}
+
+.product .productBox{ width: 25%; padding: 0 10px 40px;}
+
+.drawer{
+    position: fixed;
+    top:0;
+    bottom:0;
+    right: -300px;
+    padding: 10px;
+    width: 300px;
+    background: white;
+    box-shadow: 1px 1px 10px #c1c1c1;
+    transition: right .35s ease-in-out;
+}
+.drawer .innerBox{
+    padding: 10px 0;
+    border-bottom: 1px solid #d8d6db;
+}

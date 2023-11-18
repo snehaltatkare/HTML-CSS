@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meta Tags Example</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        
+    </head>
+
+    <body>
+        <!--Header Start Here-->
+        <header>
+            <div class="headerContainer" style="background: #222429;">
+                <div class="row d-flex">
+                    <span class="colorWhite">Welcome to our Shopingo store!</span>
+                    <div class="topNavBar d-flex">
+                        <nav>
+                            <a href="javascript:void(0)">Track Order</a>
+                            <a href="javascript:void(0)">About</a>
+                            <a href="javascript:void(0)">Our Stores</a>
+                            <a href="javascript:void(0)">Blog</a>
+                            <a href="javascript:void(0)">Contact</a>
+                            <a href="javascript:void(0)">Help & FAQs</a>
+                        </nav>
+                        <div class="ml-20">
+                            <select name="" id="">
+                                <option>USD</option>
+                                <option>USA</option>
+                            </select>
+                        </div>
+                        <div class="social-media ml-20">
+                            <a href="javascript:void(0)" class="colorWhite"><i class="fa fa-facebook"></i></a>
+                            <a href="javascript:void(0)" class="colorWhite"><i class="fa fa fa-twitter"></i></a>
+                            <a href="javascript:void(0)" class="colorWhite"><i class="fa fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="headerContainer" style="background: #f8c346;">
+                <div class="row d-flex">
+                    <span class="shopingoText">
+                        SHOPINGO
+                        <span>eCommerce</span>
+                    </span>
+                    <div class="d-flex" style="width: 89%;">
+                        <form class="searchBar">
+                            <div class="input-group d-flex">
+                                <input type="text" class="form-control" placeholder="Search for products" id="serachProduct">
+                                <button class="btn" onClick="onSerachProduct(event)">SEARCH</button>
+                            </div>
+                        </form>
+                        <div class="d-flex callUsNow">
+                            <i class="fa fa-headphones"></i>
+                            <div>
+                                <label style="display: block;">CALL US NOW</label>
+                                <a href="tel:1234567890">+1234567890</a>
+                            </div>
+                        </div>
+                        <div class="rightIco">
+                            <a href="javascript:void(0)" ><i class="fa fa-user-o"></i></a>
+                            <a href="javascript:void(0)" ><i class="fa fa-heart-o"></i></a>
+                            <a href="javascript:void(0)" class="shopping-bag" id="shopping-bag" onClick="onOpenDrawer()"><i class="fa fa-shopping-bag"></i> </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="headerContainer py-0" style="background: #FFF;padding-left: 10px;">
+                <div class="row ">
+                    <ul class="mainNav">
+                        <li><a href="javascript:void(0);">HOME</a></li>
+                        <li><a href="javascript:void(0);">CATEGORIES</a></li>
+                        <li>
+                            <a href="javascript:void(0);">SHOP <i class="fa fa-angle-down"></i> </a>
+                            <ul class="subNav">
+                                <li><a href="javascript:void(0);">Abc</a></li>
+                                <li><a href="javascript:void(0);">abc</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);">ABOUT</a></li>
+                        <li><a href="javascript:void(0);">CONTACT</a></li>
+                        <li><a href="javascript:void(0);">ACOUNT</a></li>
+                        <li><a href="javascript:void(0);">BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header> 
+        <!--Wrapper Start Here-->
+        <section class="wrapper">
+            <div class="banner">
+                <figure style="margin: 0;">
+                    <img src="images/banner.jpg" alt="" style="width: 100%;">
+                    <figcaption>
+                        <h2>
+                            <span class="top">New Trending</span>
+                            Women Fashion
+                            <span class="bottom">Last Call Upto 15%</span>
+                        </h2>
+                        <button class="btn">
+                            SHOP NOW
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+            <!--Feature-->
+            <div class="features w-100 float-left">
+                <div class="row d-flex">
+                    <div class="box">
+                        <div class="d-flex innerBox">
+                            <div class="ico d-flex">
+                                <i class="fa fa-taxi"></i>
+                            </div>
+                            <div class="text">
+                                FREE SHIPPING & RETURN
+                                <span>Free shipping on all orders over $99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex innerBox">
+                            <div class="ico d-flex">
+                                <i class="fa fa-dollar"></i>
+                            </div>
+                            <div class="text">
+                                MONEY BACK GUARANTEE
+                                <span>100% money back guarantee</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex innerBox">
+                            <div class="ico d-flex">
+                                <i class="fa fa-headphones"></i>
+                            </div>
+                            <div class="text">
+                                ONLINE SUPPORT 24/7
+                                <span>Awesoms Support for 27/4 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Category-->
+            <div class="features w-100 float-left category">
+                <div class="row d-flex">
+                    <div class="box">
+                        <div class="d-flex innerBox" style="background: #c3f2fd;">
+                            <div class="ico d-flex">
+                                <img src="./images/img-men-cat.png">
+                            </div>
+                            <div class="text">
+                                MEN WEAR
+                                <span>STARTING AT $9</span>
+                                <button class="btn outline"> SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex innerBox" style="background:#f8ccd1;">
+                            <div class="ico d-flex">
+                                <img src="./images/img-men-cat.png">
+                            </div>
+                            <div class="text">
+                                WOMEN WEAR
+                                <span>STARTING AT $9</span>
+                                <button class="btn outline"> SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex innerBox" style="background: #feefc3;">
+                            <div class="ico d-flex">
+                                <img src="./images/img-men-cat.png">
+                            </div>
+                            <div class="text">
+                                KIDS WEAR
+                                <span>STARTING AT $9</span>
+                                <button class="btn outline"> SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="w-100 float-left">
+                <div class="row" style="padding: 0 10px 40px;">
+                    <h2 class="heading"><span>FEATURED PRODUCTS</span></h2>
+                </div>
+            </div>
+            <div class="product w-100 float-left">
+                <div class="row d-flex" style="flex-wrap: wrap;" id="featureProducts"> </div>
+            </div>
+        </section>
+        <section class="drawer">
+            <a href="javascript:void(0);" onClick="closeDrawer('close')" style="color:#000">X close</a>
+            <div class="w-100 float-left" id="shopingBag" style="margin-top: 20px;">
+            </div>
+            <div class="d-flex w-100" style="position:absolute;bottom: 0;">
+                <button class="btn float-right w-100" style="padding:15px 10px;font-size: 14px;">Proceed to Checkout</button>
+            </div>
+        </section>
+        <script src="./scripts/main.js"></script>
+    </body>
+
+</html>
